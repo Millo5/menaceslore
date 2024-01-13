@@ -4,10 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>
-        Menaces lore
-    </h1>
+    <main>
+        <input id="input-text">
+        <button onclick="buttonSend()">send</button>
+
+        <div class="container">
+            <div class="gradient-border">
+                <div class="characters-image" onclick="window.location.href='characters.html'">
+                    <p>Characters</p>
+                </div>
+            </div>
+            <div class="gradient-border">
+                <div class="regions-image" onclick="window.location.href='regions.html'">
+                    <p>Regions</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
 </body>
 </html>
